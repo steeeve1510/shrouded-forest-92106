@@ -1,18 +1,26 @@
 {
-  "name": "shrouded-forest-92106",
-  "version": "0.0.0",
-  "private": true,
+  "name": "node-js-getting-started",
+  "version": "0.2.6",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "hbs": "~4.0.1",
-    "morgan": "~1.8.1",
-    "node-sass-middleware": "0.9.8",
-    "serve-favicon": "~2.4.2"
-  }
+    "ejs": "2.5.6",
+    "express": "4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
